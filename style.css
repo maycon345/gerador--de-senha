@@ -111,6 +111,37 @@ label{
     height: 20px;
     cursor: pointer;
 }
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.fraca{
+    height: 30px;
+    width: 25%;
+    background-color: yellow;
+    position: relative;
+    bottom: 30px;
+}
+
+.media{
+    height: 30px;
+    width: 50px;
+    background-color: gold;
+    position: 30px;
+}
+
+.forte{
+    height: 30px;
+    width: 100%;
+    background-color: green;
+    position: relative;
+}
+
+.parametro{
+    display: flex;
+    justify-content: space-between;
+}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
