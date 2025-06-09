@@ -6,11 +6,11 @@ let tamanhoSenha = 12;
 numerosenha.textContent=tamanhoSenha;
 
 const botoes = document . querySelectorAll('parametro-senha_botao');
-botoes[0] .onclick = diminuirtamanho;
-
+botoes[0] .onclick = diminuirTamanho;
+botoes[1] .onclick = aumentarTamanho;
 
 console .log (botoes);
-function diminuirTamanho(){
+function daumenTamanho(){
     tamanhoSenha = tamanhoSenha - 1;
     numerosenha.textContent = tamanhoSenha
 
