@@ -4,4 +4,4 @@ numerosenha.textContent=5;
 
 const botoes = document . querySelector('parametro-senha_botao');
 
-console .log (botao);
+console .log (botoes);
