@@ -18,3 +18,14 @@ function daumenTamanho(){
     numerosenha.textContent = tamanhoSenha
 
 }
+const compoSenha + document .querySelector ('#campo-senha');
+
+const letrasmaiudculas = 'ABCDEFGHIJklMNPOQRSTUVWxtZ';
+
+function geraSenha(){
+    let numeroAleatorio = Math .random()*letrasmaiudculas. length;
+    numeroAleatorio = Math.floor(numeroAleatorio);
+    console.log(letrasmaiudculas[numeroAleatorio]);
+}
+
+campoSenha.value = letrasmaiudculas;
