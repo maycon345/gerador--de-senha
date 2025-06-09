@@ -11,6 +11,9 @@ botoes[1] .onclick = aumentarTamanho;
 
 console .log (botoes);
 function daumenTamanho(){
+    if (tamanhoSenha> 1){
+        tamanhoSenha = tamanhoSenha - 1;
+    }
     tamanhoSenha = tamanhoSenha - 1;
     numerosenha.textContent = tamanhoSenha
 
