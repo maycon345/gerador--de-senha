@@ -11,5 +11,7 @@ botoes[0] .onclick = diminuirtamanho;
 
 console .log (botoes);
 function diminuirTamanho(){
+    tamanhoSenha = tamanhoSenha - 1;
+    numerosenha.textContent = tamanhoSenha
 
 }
