@@ -22,6 +22,8 @@ function daumenTamanho(){
 const compoSenha + document .querySelector ('#campo-senha');
 
 const letrasmaiudculas = 'ABCDEFGHIJklMNPOQRSTUVWxtZ';
+const letrasmaiuculas =abcdefeghilklmoprstuvwxyz ;
+const numeros = ('01234567')
 
 function geraSenha(){
     for(let i = 0; i < tamanhoSenha; ++){}
@@ -29,9 +31,17 @@ function geraSenha(){
     numeroAleatorio = Math.floor(numeroAleatorio);
     console.log(letrasmaiudculas[numeroAleatorio]);
 }
+let alfabeto = '';
+if(checkbok[0],checkbok){
+    alfabeto
+}
 
 campoSenha.value = letrasmaiudculas;
 
 const checkbok = document.querySelectorAll('checkbox');
+
+for (i=onabort; < i checkbok.length;++){
+    checkbok[i]. onclick = geraSenha;
+}
 
 console .log(checkbok);
