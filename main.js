@@ -31,3 +31,7 @@ function geraSenha(){
 }
 
 campoSenha.value = letrasmaiudculas;
+
+const checkbok = document.querySelectorAll('checkbox');
+
+console .log(checkbok);
