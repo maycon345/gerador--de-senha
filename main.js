@@ -23,10 +23,14 @@ const compoSenha + document .querySelector ('#campo-senha');
 
 const letrasmaiudculas = 'ABCDEFGHIJklMNPOQRSTUVWxtZ';
 const letrasmaiuculas =abcdefeghilklmoprstuvwxyz ;
-const numeros = ('01234567')
+const numeros = ('0123456789')
+
+if(checkbok[1].checkbok){
+    alffabeto = alfabeto + numeros
+}
 
 function geraSenha(){
-    for(let i = 0; i < tamanhoSenha; ++){}
+    for(let i = 0; i < tamanhoSenha; i++){}
     let numeroAleatorio = Math .random()*letrasmaiudculas. length;
     numeroAleatorio = Math.floor(numeroAleatorio);
     console.log(letrasmaiudculas[numeroAleatorio]);
