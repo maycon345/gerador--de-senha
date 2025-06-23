@@ -49,3 +49,5 @@ for (i=onabort; < i checkbok.length;++){
 }
 
 console .log(checkbok);
+
+const forcaSenha = document.querySelectorAll('.forca');
